@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVContentMerger", "CSVContentMerger\CSVContentMerger.csproj", "{424AFE48-687D-499E-951A-99D98BA711ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTests", "MergeTests\MergeTests.csproj", "{F805F085-6A91-4BA5-BDCD-023434A6EF04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{424AFE48-687D-499E-951A-99D98BA711ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424AFE48-687D-499E-951A-99D98BA711ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424AFE48-687D-499E-951A-99D98BA711ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F805F085-6A91-4BA5-BDCD-023434A6EF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F805F085-6A91-4BA5-BDCD-023434A6EF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F805F085-6A91-4BA5-BDCD-023434A6EF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F805F085-6A91-4BA5-BDCD-023434A6EF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

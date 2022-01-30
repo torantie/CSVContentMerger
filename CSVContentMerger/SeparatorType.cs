@@ -6,7 +6,7 @@ namespace CSVContentMerger
 {
     public enum SeparatorType
     {
-        NewLineSpace, Comma, Semicolon
+        NewLineSpace, Comma, SemiColon
     }
 
     public static class SeparatorTypeExtension
@@ -17,7 +17,7 @@ namespace CSVContentMerger
             {
                 SeparatorType.NewLineSpace => Environment.NewLine,
                 SeparatorType.Comma => ",",
-                SeparatorType.Semicolon => ";",
+                SeparatorType.SemiColon => ";",
                 _ => "",
             };
         }
